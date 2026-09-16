@@ -1,10 +1,10 @@
-# figma-make-app
+# pdftools
 
-React + Vite + Tailwind CSS project running inside Figma Make.
+React + Vite + Tailwind CSS browser-based PDF tools app.
 
 ## Development Server
 
-A Vite development server is **already running** on `$PORT` (default 8443). You don't need to start it manually.
+Run `npm run dev` to start the Vite development server on port `8443` (override with the `PORT` environment variable).
 
 - Preview URL: The user can access the running app through the preview panel
 - Hot reload: Changes to source files are reflected immediately
@@ -18,8 +18,7 @@ This is the canonical project structure. Start with task-relevant files below. O
 - `src/index.css` - Global CSS entrypoint and Tailwind CSS v4 import
 - `index.html` - Vite HTML shell containing the `#root` element and loading `src/main.tsx`
 - `package.json` - Project dependencies and the Vite build, development, preview, and formatting scripts
-- `vite.config.ts` - Vite configuration with React, Tailwind CSS v4, and Figma Make plugins plus the `@` alias for `src`
-- `.mise.toml` - Toolchain versions for Node.js and pnpm
+- `vite.config.ts` - Vite configuration with React, Tailwind CSS v4, and the `@` alias for `src`
 
 ## Dependencies
 
